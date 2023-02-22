@@ -1,0 +1,80 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  width: 10px;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  background: rgb(25, 26, 26,0.08);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(25, 26, 26,0.1);
+  background-clip: padding-box;
+  min-height: 18px;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color .3s;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(14, 14, 15, 0.3);
+}
+
+/* 全局消息 */
+#ming-msg-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 30000;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#ming-msg-container .item {
+  display: inline-block;
+  min-width: 240px;
+  width: fit-content;
+  max-width: 340px;
+  position: relative;
+  pointer-events:all;
+  margin-top: 12px;
+}
+
+/* 提示 */
+.m-title-tip-name{
+  position: fixed;
+  display: none;
+  padding: 8px 12px;
+  min-width: 40px;
+  border-radius: 4px;
+  z-index: 3000;
+  max-width: 300px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0,.8);
+  color: #fff;
+  text-align: left;
+  filter: drop-shadow(0 5px 5px rgba(28, 27, 27,.5));
+}
+
+#m-title-triangle-id{
+  position: fixed;
+  z-index: 3000;
+  left: 12px;
+  border: 8px solid  rgb(27, 25, 25);
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  display: none;
+}

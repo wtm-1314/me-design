@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "micon"; /* Project id 3855329 */
+  src: url('./iconfont.woff2?t=1673141283870') format('woff2'),
+       url('./iconfont.woff?t=1673141283870') format('woff'),
+       url('./iconfont.ttf?t=1673141283870') format('truetype');
+}
+
+.micon {
+  font-family: "micon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-info-circle:before {
+  content: "\e77e";
+}
+
+.icon-question-circle:before {
+  content: "\e782";
+}
+
+.icon-warning-circle:before {
+  content: "\e785";
+}
+
+.icon-setting:before {
+  content: "\e78e";
+}
+
+.icon-appstore:before {
+  content: "\e792";
+}
+
+.icon-user:before {
+  content: "\e7ae";
+}
+
+.icon-right:before {
+  content: "\e7eb";
+}
+
+.icon-left:before {
+  content: "\e7ec";
+}
+
+.icon-up:before {
+  content: "\e7ed";
+}
+
+.icon-down:before {
+  content: "\e7ee";
+}
+
+.icon-download:before {
+  content: "\e7ef";
+}
+
+.icon-check:before {
+  content: "\e7fc";
+}
+
+.icon-close:before {
+  content: "\e7fd";
+}
+
+.icon-check-circle-fill:before {
+  content: "\e844";
+}
+
+.icon-close-circle-fill:before {
+  content: "\e845";
+}
+
+.icon-info-circle-fill:before {
+  content: "\e846";
+}
+
+.icon-question-circle-fill:before {
+  content: "\e847";
+}
+
+.icon-warning-circle-fill:before {
+  content: "\e848";
+}
+
+.icon-caret-down:before {
+  content: "\e8ec";
+}
+
+.icon-caret-up:before {
+  content: "\e8ed";
+}
+
+.icon-caret-right:before {
+  content: "\e8ee";
+}
+
+.icon-caret-left:before {
+  content: "\e8ef";
+}
+
+.icon-loading:before {
+  content: "\e62b";
+}
+
+.icon-Loading:before {
+  content: "\e65d";
+}
+

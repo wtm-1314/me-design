@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "ming-font";
+  src: url("./SpAYKI4Dz2mx4jgyNYeVq.woff2") format("woff2"),
+    url("./SpAYKI4Dz2mx4jgyNYeVq.woff") format("woff");
+  font-display: swap;
+}
+
+html,
+body {
+  font-family: "ming-font" !important;
+  font-size: 16px;
+  box-sizing: border-box;
+}

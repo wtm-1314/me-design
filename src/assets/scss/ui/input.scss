@@ -1,0 +1,97 @@
+.m-input-wrap {
+  display: inline-block;
+  margin-right: 12px;
+  &:last-child {
+    margin-right: 0;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+  }
+  //兼容火狐
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  .m-input {
+    display: flex;
+    border: 1px solid $border_line_color;
+    height: 36px;
+    line-height: 34px;
+    border-radius: 4px;
+    align-items: center;
+    color: $font_color;
+    background-color: transparent;
+    width: 100%;
+
+    &:focus-within {
+      border-color: $primary_color;
+    }
+    &.m-input-focus {
+      border-color: $primary_color;
+    }
+    &.disabled {
+      background-color: $disabled_color;
+      color: $gray_color;
+      border-color: $border_line_color;
+    }
+    .m-input-prefix {
+      border-right: 1px solid $border_line_color;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    .m-input-fix {
+      display: inline-block;
+      height: 100%;
+      width: fit-content;
+      min-width: fit-content;
+      max-width: fit-content;
+      padding: 0 12px;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      background: #fafafa;
+    }
+    .m-input-suffix {
+      border-left: 1px solid $border_line_color;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+
+    input {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 0 12px;
+      border-radius: 4px;
+      background-color: transparent;
+    }
+    .input-view{
+      flex: 1;
+      height: 100%;
+      position: relative;
+      .clear-btn{
+        position: absolute;
+        right: 4px;
+        top: 0;
+        width: fit-content;
+        height: 100%;
+        padding: 0 4px;
+        .btn-close{
+          cursor: pointer;
+          color: rgba(0,0,0,.25);
+          &:hover{
+            color: rgba(0,0,0,.55);
+          }
+        }
+      }
+    }
+
+    &.m-input-mini {
+      height: 28px;
+      line-height: 26px;
+      font-size: 12px;
+    }
+  }
+}

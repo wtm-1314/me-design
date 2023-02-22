@@ -1,0 +1,14 @@
+{
+  "name": "@domiv/me-utils",
+  "version": "1.1.13",
+  "author": "WangTongMing",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/me-utils.mjs",
+  "license": "MIT",
+  "style": "dist/style.css",
+  "keywords": [
+    "me-utils"
+  ]
+}

@@ -1,0 +1,5 @@
+import{d as v,i as t,c as y,b as o,a as n,x as i,y as l,C as c,e as r,g as e,h as x}from"./17de59b6.js";const b={class:"test_page"},f=o("h2",null,"hover文字提示",-1),h=o("h2",null,"Api",-1),D=v({__name:"TitlePage",setup(k){const p=`
+      <m-button v-title="{text:'提示文案'}">鼠标悬浮提示</m-button>
+
+      <m-button v-title="{text:'提示文案'}" type="primary">鼠标悬浮提示2</m-button>
+  `,d=[{key:"param",title:"参数"},{key:"desc",title:"说明"},{key:"type",title:"类型"},{key:"default",title:"默认值"},{key:"version",title:"版本"}],_=[{param:"v-title",desc:"指令",default:"v-title",type:"object",version:"1.1.11"},{param:"text",desc:"提示文案",default:"",type:"string",version:"1.1.11"},{param:"position",desc:"位置",default:"left",type:"string",version:"1.1.11"}];return(g,C)=>{const a=e("m-button"),m=e("MExpand"),u=e("m-table"),s=x("title");return t(),y("div",b,[o("div",null,[f,n((t(),i(a,null,{default:l(()=>[c("鼠标悬浮提示")]),_:1})),[[s,{text:"提示文案"}]]),n((t(),i(a,{type:"primary"},{default:l(()=>[c("鼠标悬浮提示2")]),_:1})),[[s,{text:"提示文案"}]]),r(m,{code:p,title:"提示Message使用案例"}),h,r(u,{columns:d,data:_})])])}}});export{D as default};

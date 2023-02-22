@@ -1,0 +1,15 @@
+{
+  "name": "me-design",
+  "version": "1.1.25",
+  "author": "WangTongMing",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/me-design.mjs",
+  "license": "MIT",
+  "style": "dist/style.css",
+  "devDependencies": {
+    "vue": "^3.2.37"
+  },
+  "keywords":["me-design","design"]
+}
