@@ -73,7 +73,7 @@ export default defineConfig(({ command, mode }):any => {
             optimizeDeps: {},// 强制预构建插件包
             clearScreen: false,
             logLevel: 'warn', //'info' | 'warn' | 'error' | 'silent'
-            base:'/', // 发布服务基础地址，没有填'/' /ming-ui/
+            base:'/me-design', // 发布服务基础地址，没有填'/' /me-design/
             build: {
                 target: 'modules', //浏览器兼容性  "esnext"|"modules"
                 outDir: 'dist',

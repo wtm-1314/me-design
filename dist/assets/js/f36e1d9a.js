@@ -1,4 +1,4 @@
-import{d as u,i as y,c as f,b as a,e as t,y as o,C as s,g as c,p as v,j as h}from"./17de59b6.js";import{_ as x}from"./44fde5cd.js";const l=i=>(v("data-v-14dc281f"),i=i(),h(),i),b={class:"test_page"},z=l(()=>a("h2",null,"分割线",-1)),B=l(()=>a("p",null,"一般在页面用来分开不同的操作对象",-1)),g={class:"flex"},k={class:"flex"},C={class:"flex"},I=l(()=>a("h2",null,"Api",-1)),S=u({__name:"Page",setup(i){const _=`
+import{d as u,i as y,c as f,b as a,e as t,y as o,C as s,g as c,p as v,j as h}from"./eb002226.js";import{_ as x}from"./2b56ead0.js";const l=i=>(v("data-v-14dc281f"),i=i(),h(),i),b={class:"test_page"},z=l(()=>a("h2",null,"分割线",-1)),B=l(()=>a("p",null,"一般在页面用来分开不同的操作对象",-1)),g={class:"flex"},k={class:"flex"},C={class:"flex"},I=l(()=>a("h2",null,"Api",-1)),S=u({__name:"Page",setup(i){const _=`
       <m-button size="mini" type="primary" class="mr_0">按钮</m-button>
       <m-divider />
       <m-button size="mini">Button</m-button>

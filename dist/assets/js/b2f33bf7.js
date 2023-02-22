@@ -1,4 +1,4 @@
-import{d as b,i as h,c as z,b as i,e,y as t,C as n,g as c}from"./17de59b6.js";const B={class:"test_page"},M=i("div",null,[i("h2",null,"按钮组件"),i("p",null," 标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。 ")],-1),w=i("h4",null,"标准尺寸",-1),S={class:"mb_16"},v=i("h4",null,"文本按钮",-1),k=i("h4",null,"圆形按钮",-1),x={class:"mb_16"},P=i("h4",null,"小型尺寸",-1),C={class:"mb_16"},D=i("h4",null,"禁用按钮",-1),E={class:"mb_16"},N=i("h4",null,"加载按钮",-1),V=i("h2",null,"Api",-1),q=b({__name:"Page",setup(L){const m=`
+import{d as b,i as h,c as z,b as i,e,y as t,C as n,g as c}from"./eb002226.js";const B={class:"test_page"},M=i("div",null,[i("h2",null,"按钮组件"),i("p",null," 标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。 ")],-1),w=i("h4",null,"标准尺寸",-1),S={class:"mb_16"},v=i("h4",null,"文本按钮",-1),k=i("h4",null,"圆形按钮",-1),x={class:"mb_16"},P=i("h4",null,"小型尺寸",-1),C={class:"mb_16"},D=i("h4",null,"禁用按钮",-1),E={class:"mb_16"},N=i("h4",null,"加载按钮",-1),V=i("h2",null,"Api",-1),q=b({__name:"Page",setup(L){const m=`
         <m-button>Default</m-button>
         <m-button type="primary">Primary</m-button>
         <m-button type="danger">danger</m-button>
